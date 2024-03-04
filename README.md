@@ -22,3 +22,20 @@
 - Implemented a search box for running tweets.
 - Updated table with tweet number and activity type dynamically.
 - Made links in tweets clickable for exploring data.
+
+# Installation
+
+## Packages
+```
+npm i -g typescript
+npm i -g live-server
+```
+
+## Running Transpiler
+- After installing above packages, you can run the following command to recompile code automatically.
+```
+tsc --watch --p tsconfig.json
+```
+
+## View in live-server
+- Use the live-server installed to view the application.
